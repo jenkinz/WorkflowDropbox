@@ -22,6 +22,11 @@
 	James Wynn james@jameswynn.com
 */
 
+/* Plan: */
+/* FIXED compilation errors w/ exception
+   Do Fix Namespace - should not be using closure here. 
+   */
+
 #include <FileWatcher/FileWatcherOSX.h>
 
 #if FILEWATCHER_PLATFORM == FILEWATCHER_PLATFORM_KQUEUE
